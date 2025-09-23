@@ -71,3 +71,24 @@ input[type="password"]:focus{
     box-shadow:  0 0 5px hsla(212, 72%, 59%, 0.5);
     outline:none;
 }
+
+
+.popUpWindow{
+    text-align: center;
+    background: white;
+    margin-top: 10px;
+    position: relative;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 5px 15px black;
+}
+.popUpWindow button{
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    margin-top: 15px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+}
