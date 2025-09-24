@@ -9,8 +9,21 @@
 <body>
     <header></header>
     <main>
+
+        <div class="pop-up-over" id="pop-up-over">
+                   <div class="pop-up hidden">
+                        <div class="pop-up-content">
+                            <span class="close-button">&times;</span>
+                            <h2>Success</h2>
+                            <p>Registration successful!</p>
+                            <div class="user-name"></div>
+                            <button class="close">Close</button>
+                        </div>
+                </div>
+        </div>
+
     <form action="" id="form">
-        <filedset>
+        <fieldset>
             <legend>Personal Info</legend>
 
             <label for="name">First Name:</label><br />
@@ -22,7 +35,7 @@
             <label class="checkbox1">
                 <input type="checkbox" id="showpass"> Show/hide password
             </label>
-            </filedset>
+            </fieldset>
             <br />
             <button type="submit" id="submit">Submit</button>
 
@@ -33,6 +46,6 @@
     </form>
     </main>
     <footer></footer>
-    <script src="form.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
